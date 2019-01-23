@@ -1,0 +1,57 @@
+1000 providers
+28976 nodes
+28723 after pruning 0's
+
+649 subgraphs, avg node count 44.2
+
+largest:
+radius 5, diameter 9
+density: 0.104564390864
+number of nodes: 3571
+number of edges: 666518
+
+-------
+2000 providers
+number of nodes before pruning solitary: 56376
+number of nodes after pruning solitary: 55868
+
+INFO:root:found 1142 total subgraphs, with average node count of 48.921191
+
+
+radius: 12
+diameter: 24
+density: 0.0215416084397
+number of nodes: 11096
+number of edges: 1325995
+
+#### clustering coeff
+doing run for clustering_coeff
+at risk...
+min: 0.460865424677
+max: 1.0
+std: 0.0663229250769
+mean: 0.987681182512
+median: 1.0
+not at risk...
+min: 0.0
+max: 1.0
+std: 0.0322930604779
+mean: 0.997330049242
+median: 1.0
+pval of clustering_coeff is 0.00320028981041
+
+#### betweenness centrality
+beginning run() of betweenness
+done with algo, no parsing results...
+pval of betweenness is 0.00304149946869
+#### degree centrality
+beginning run() of degree-centrality
+done with algo, no parsing results...
+pval of degree-centrality is 2.33983338396e-16
+pval of degree-centrality is 2.33983338396e-16
+
+---------
+INFO:root:length of prescriber matches: 10000
+INFO:root:length of non-matches: 46786
+number of nodes before pruning solitary: 276270
+number of nodes after pruning solitary: 273741
